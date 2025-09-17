@@ -22,11 +22,15 @@ export class Glasses {
     this.height = height;
     this.needsUpdate = false;
     this.landmarks = null;
+    // user adjustable offsets
+    this.positionOffset = new THREE.Vector3(0, 0, 0); // in same unit space as scaled landmarks
+    this.rotationOffset = new THREE.Euler(0, 0, 0);   // radians
+    this.scaleMultiplier = 1.0;                       // multiplier applied after auto scale
     this.loadGlasses();
   }
 
   async loadGlasses() {
-    this.glasses = await loadModel( `${PUBLIC_PATH}/3d/black-glasses/scene.gltf` );
+    this.glasses = await loadModel( `${PUBLIC_PATH}/3d/mask2/scene.gltf` );
 
     // scale glasses
     const bbox = new THREE.Box3().setFromObject(this.glasses);
@@ -51,7 +55,8 @@ export class Glasses {
     // Points for reference
     // https://raw.githubusercontent.com/google/mediapipe/master/mediapipe/modules/face_geometry/data/canonical_face_model_uv_visualization.png
 
-    let midEyes = scaleLandmark(this.landmarks[168], this.width, this.height);
+    // let midEyes = scaleLandmark(this.landmarks[168], this.width, this.height);
+    let midEyes = scaleLandmark(this.landmarks[14], this.width, this.height);
     let leftEyeInnerCorner = scaleLandmark(this.landmarks[463], this.width, this.height);
     let rightEyeInnerCorner = scaleLandmark(this.landmarks[243], this.width, this.height);
     let noseBottom = scaleLandmark(this.landmarks[2], this.width, this.height);
@@ -78,8 +83,9 @@ export class Glasses {
         ( leftEyeUpper1.y - rightEyeUpper1.y ) ** 2 +
         ( leftEyeUpper1.z - rightEyeUpper1.z ) ** 2
       );
-      const scale = eyeDist / this.scaleFactor;
-      this.glasses.scale.set(scale, scale, scale);
+      const autoScale = eyeDist / this.scaleFactor;
+      const finalScale = autoScale * this.scaleMultiplier;
+      this.glasses.scale.set(finalScale, finalScale, finalScale);
 
       // use two vectors to rotate glasses
       // Vertical Vector from midEyes to noseBottom
@@ -114,9 +120,34 @@ export class Glasses {
         new THREE.Vector3(sideVector.x, 0, sideVector.z)
       ).angleTo(new THREE.Vector3(0, 0, 1)) - (Math.PI / 2);
       
-      this.glasses.rotation.set(xRot, yRot, zRot);
+      // apply rotation offsets
+      this.glasses.rotation.set(
+        -xRot + this.rotationOffset.x,
+        yRot + this.rotationOffset.y,
+        -zRot + this.rotationOffset.z
+      );
+
+      // apply position offset AFTER rotation so offset is in world axes; if we
+      // wanted local space we'd apply before rotation and use applyEuler.
+      this.glasses.position.add(this.positionOffset);
 
     }
+  }
+
+  // setters for offsets
+  setPositionOffset(x, y, z) {
+    this.positionOffset.set(x, y, z);
+    this.needsUpdate = true;
+  }
+
+  setRotationOffset(x, y, z) {
+    this.rotationOffset.set(x, y, z);
+    this.needsUpdate = true;
+  }
+
+  setScaleMultiplier(mult) {
+    this.scaleMultiplier = mult;
+    this.needsUpdate = true;
   }
 
   addGlasses() {

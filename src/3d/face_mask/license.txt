@@ -1,0 +1,11 @@
+Model Information:
+* title:	Face Mask
+* source:	https://sketchfab.com/3d-models/face-mask-7f32cc1b597e4dbcaf04a3818b9e82c3
+* author:	Jacob.Elhatmi (https://sketchfab.com/Jacob.Elhatmi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Face Mask" (https://sketchfab.com/3d-models/face-mask-7f32cc1b597e4dbcaf04a3818b9e82c3) by Jacob.Elhatmi (https://sketchfab.com/Jacob.Elhatmi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -17,6 +17,7 @@
     "@mediapipe/drawing_utils": "^0.3.1620248257",
     "@mediapipe/face_mesh": "^0.4.1633559619",
     "core-js": "2",
+    "memfs": "^4.39.0",
     "three": "^0.174.0"
   },
   "devDependencies": {

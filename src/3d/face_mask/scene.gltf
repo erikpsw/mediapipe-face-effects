@@ -1,0 +1,451 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 18224,
+      "max": [
+        2.5798628330230713,
+        1.080304741859436,
+        5.852975845336914
+      ],
+      "min": [
+        -2.7425320148468018,
+        -1.9657939672470093,
+        2.6875953674316406
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 218688,
+      "componentType": 5126,
+      "count": 18224,
+      "max": [
+        0.9998839497566223,
+        0.9899568557739258,
+        0.998561680316925
+      ],
+      "min": [
+        -0.9996482133865356,
+        -0.9999431371688843,
+        -0.998755693435669
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 18224,
+      "max": [
+        0.993193507194519,
+        0.6832308173179626
+      ],
+      "min": [
+        0.006340290419757366,
+        0.2821081876754761
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 74496,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 437376,
+      "componentType": 5126,
+      "count": 3015,
+      "max": [
+        0.33837464451789856,
+        0.4453132152557373,
+        0.5360522866249084
+      ],
+      "min": [
+        -0.39094120264053345,
+        -0.4005693793296814,
+        -0.5289941430091858
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 473556,
+      "componentType": 5126,
+      "count": 3015,
+      "max": [
+        0.999876856803894,
+        0.9626749157905579,
+        0.9944363236427307
+      ],
+      "min": [
+        -0.7673649787902832,
+        -0.9998326301574707,
+        -0.9992069602012634
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 145792,
+      "componentType": 5126,
+      "count": 3015,
+      "max": [
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 297984,
+      "componentType": 5125,
+      "count": 15870,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 509736,
+      "componentType": 5126,
+      "count": 1872,
+      "max": [
+        -0.050185322761535645,
+        1.904716968536377,
+        1.1719692945480347
+      ],
+      "min": [
+        -5.256190776824951,
+        -0.20904794335365295,
+        -1.010388970375061
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 532200,
+      "componentType": 5126,
+      "count": 1872,
+      "max": [
+        0.9997131824493408,
+        0.9931715130805969,
+        0.9801340699195862
+      ],
+      "min": [
+        -0.9995779991149902,
+        -0.992583155632019,
+        -0.9800843000411987
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 169912,
+      "componentType": 5126,
+      "count": 1872,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 361464,
+      "componentType": 5125,
+      "count": 10224,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Jacob.Elhatmi (https://sketchfab.com/Jacob.Elhatmi)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/face-mask-7f32cc1b597e4dbcaf04a3818b9e82c3",
+      "title": "Face Mask"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 402360,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 184888,
+      "byteOffset": 402360,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 554664,
+      "byteOffset": 587248,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1141912,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Cloth3",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9765152351245214
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Filter",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.005298269638926924,
+          0.005298269638926924,
+          0.005298269638926924,
+          1.0
+        ],
+        "metallicFactor": 0.7729322694199064,
+        "roughnessFactor": 0.4092403208921551
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Earloop",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0312963,
+          0.0312963,
+          0.0312963,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9959649143669997
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.001_Cloth3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Circle_Filter_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "NurbsPath_Earloop_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "89985de4909a4ca3bddc6a0c407f6b11.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        7
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Plane.001"
+    },
+    {
+      "mesh": 0,
+      "name": "Plane.001_Cloth3_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        0.9999999403953552,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9999999403953552,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9999999403953552,
+        0.0,
+        1.543559193611145,
+        -0.3606853485107422,
+        3.8926053047180176,
+        1.0
+      ],
+      "name": "Circle"
+    },
+    {
+      "mesh": 1,
+      "name": "Circle_Filter_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        0.9999999403953552,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9999999403953552,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2.576138973236084,
+        0.9177882671356201,
+        3.66812801361084,
+        1.0
+      ],
+      "name": "NurbsPath"
+    },
+    {
+      "mesh": 2,
+      "name": "NurbsPath_Earloop_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

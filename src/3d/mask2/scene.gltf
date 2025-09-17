@@ -1,0 +1,392 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                8
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Circle_Filter_0"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Circle",
+            "translation" : [
+                1.543559193611145,
+                -0.3606853485107422,
+                3.8926055431365967
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "NurbsPath_Earloop_0"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "NurbsPath",
+            "translation" : [
+                2.576138973236084,
+                0.917788028717041,
+                3.668128490447998
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Plane.001_Cloth3_0"
+        },
+        {
+            "children" : [
+                1,
+                3,
+                4
+            ],
+            "name" : "Plane.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                100,
+                100,
+                100
+            ],
+            "translation" : [
+                0,
+                7.62939453125e-06,
+                7.62939453125e-06
+            ]
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "RootNode",
+            "translation" : [
+                0,
+                7.62939453125e-06,
+                7.62939453125e-06
+            ]
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "89985de4909a4ca3bddc6a0c407f6b11.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                0,
+                -1.52587890625e-05,
+                -3.814697265625e-05
+            ]
+        },
+        {
+            "children" : [
+                7
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.5827822089195251,
+                0,
+                0,
+                0.8126283884048462
+            ],
+            "translation" : [
+                0,
+                -367.7200012207031,
+                -303.40997314453125
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Filter",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.00529826944693923,
+                    0.00529826944693923,
+                    0.00529826944693923,
+                    1
+                ],
+                "metallicFactor" : 0.7729322910308838,
+                "roughnessFactor" : 0.40924033522605896
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Earloop",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.03129630163311958,
+                    0.03129630163311958,
+                    0.03129630163311958,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9959648847579956
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Cloth3",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9765152335166931
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle_Filter_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "NurbsPath_Earloop_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Plane.001_Cloth3_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4069,
+            "max" : [
+                0.33837464451789856,
+                0.4453132152557373,
+                0.5360522866249084
+            ],
+            "min" : [
+                -0.39094120264053345,
+                -0.4005693793296814,
+                -0.5289941430091858
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4069,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4069,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 15870,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1872,
+            "max" : [
+                -0.050185322761535645,
+                1.904716968536377,
+                1.1719692945480347
+            ],
+            "min" : [
+                -5.256190776824951,
+                -0.20904794335365295,
+                -1.010388970375061
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1872,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1872,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 10224,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 18477,
+            "max" : [
+                2.5798628330230713,
+                1.080304741859436,
+                5.852975845336914
+            ],
+            "min" : [
+                -2.7425320148468018,
+                -1.9657939672470093,
+                2.6875953674316406
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 18477,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 18477,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 74496,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 48828,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48828,
+            "byteOffset" : 48828,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32552,
+            "byteOffset" : 97656,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31740,
+            "byteOffset" : 130208,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22464,
+            "byteOffset" : 161948,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22464,
+            "byteOffset" : 184412,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14976,
+            "byteOffset" : 206876,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20448,
+            "byteOffset" : 221852,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 221724,
+            "byteOffset" : 242300,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 221724,
+            "byteOffset" : 464024,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 147816,
+            "byteOffset" : 685748,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 148992,
+            "byteOffset" : 833564,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 982556,
+            "uri" : "scene.bin"
+        }
+    ]
+}
